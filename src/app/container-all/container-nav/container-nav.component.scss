@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-self: start;
+        margin: 20px;
+    }
+
+   .logo img {
+        background: red;
+        width: 60px;
+        cursor: pointer;
+    }
+
+    .grid-header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-end;
+
+        
+    }
+
+    
+}

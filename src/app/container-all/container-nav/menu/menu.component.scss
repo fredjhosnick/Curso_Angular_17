@@ -1,0 +1,24 @@
+.menu {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+
+    .menu-ul {
+        display: flex;
+        width: 60%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1em;
+        padding: 20px;
+        margin: 20px;
+
+        &__item {
+            cursor: pointer;
+
+            &:hover {
+                color: #00dea3;
+            }
+        }
+    }
+}
