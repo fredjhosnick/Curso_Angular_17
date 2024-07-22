@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { ContainerModule } from './container/container.module';
+import { ContainerAllModule } from './container-all/container-all.module';
 
 
 @Component({
 	selector: 'app-root',
 	standalone: true,
-  imports:[ContainerModule ],
+	imports:[ContainerAllModule],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss'
 })
