@@ -53,8 +53,8 @@
               "src/assets/svg",
               "src/assets/user."
             ],
-            "styles": [
-              "src/styles.scss"
+            "styles": ["node_modules/normalize.css/normalize.css",
+              "src/styles/styles.scss","src/styles/font.scss"
             ],
             "scripts": []
           },
